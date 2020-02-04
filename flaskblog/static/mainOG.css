@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+  font-size: 1em;
+  font-family: 'Source Serif Pro', 'Helvetica Neue', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section-main {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.content-section-sidebar {
+
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+#text {
+  overflow-wrap: break-word;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.form-check-input {
+  outline: 0.5px solid #ffffff;
+}
+
+.form-check-label {
+  margin-left: .5rem;
+}
+
+ /* changed bootstrap info theme to my page's b/w theme for hover/normal */
+.btn-outline-info:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-outline-info {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	padding: 1.5em 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer,
+.header-intro,
+.header-name {
+	text-align: center;
+}
+
+.header-intro {
+	margin-bottom: 0em;
+	color: #000;
+	font-size: 2.25em;
+	text-shadow: 0px 1px 0px #404040;
+}
+
+.header-name {
+	margin-top: -0.2em;
+	color: #000;
+	font-size: 5.0em;
+	text-shadow: 0px 3px 0px #404040;
+	font-weight: 700;
+}
+
+.about,
+.passion,
+.contact {
+	max-width: 100.5em;
+	margin: 0 auto;
+	margin-top: 3em;
+	line-height: 1.5em;
+}
+
+.passion h3 {
+	color: #000;
+}
+
+.footer {
+	padding: 4em 0;
+	color: #fff;
+	margin-top: 3em;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.social {
+	text-align: center;
+  margin-left: -2em;
+}
+
+.social > li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 1.0em;
+}
